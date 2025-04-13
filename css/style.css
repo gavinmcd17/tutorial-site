@@ -20,12 +20,21 @@ h1 {
 }
 
 h2 {
-    color: #CB721C;
+    /*color: #CB721C;*/
     font-size: 2.5rem;
 }
 
 h3 {
     font-size: 1.75rem;
+}
+
+a {
+    color: #2B930B
+}
+
+a:hover,
+a:focus-visible {
+    color: #1fdc99;
 }
 
 section {
@@ -41,6 +50,16 @@ section {
     padding: 20px;
     border: #0B4A5A solid 5px;
     background-color: #087A98;
+}
+
+.climber-bg {
+    color: #fff;
+    background-image: url("../images/simple-steps.jpg");
+    border: #0b4a5a solid 5px;
+    padding: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
 }
 
 footer {
